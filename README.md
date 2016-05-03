@@ -1,6 +1,6 @@
-# At Internet solution + Adblocker (v 1.0)
+# AT Internet solution + Adblocker (v 1.0)
 
-How to measure an adblocker on your website with AT Internet analytics Solution
+How to measure an adblocker on your website with AT Internet Analytics Solution
 
 # Valid on
 
@@ -10,7 +10,7 @@ How to measure an adblocker on your website with AT Internet analytics Solution
 - Safari
 - Opera
 
-# Requierement
+# Requierements
 
 - Download the "fuckadblock.js" library : https://github.com/sitexw/FuckAdBlock
 - Download the "smarttag.js" library : https://apps.atinternet-solutions.com/TagComposer/#/javascript
@@ -52,5 +52,5 @@ How to measure an adblocker on your website with AT Internet analytics Solution
 If a visitor is navigating on your website with an adblocker, the "adBlockDetected();" function sends a publisher impression.
 
 Benefits:
-- The hit sent is independent of the page hit
+- The hit sent is independent from the page hit
 - You could use a segment on this value
