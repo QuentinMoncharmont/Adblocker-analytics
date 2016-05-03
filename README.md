@@ -48,3 +48,9 @@ How to measure an adblocker on your website with AT Internet analytics Solution
 # Analysis
 
 ## Method 1
+
+If a visitor is navigating on your website with an adblocker, the "adBlockDetected();" function sends a publisher impression.
+
+Benefits:
+- The hit sent is independent of the page hit
+- You could use a segment on this value
