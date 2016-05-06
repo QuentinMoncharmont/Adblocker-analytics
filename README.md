@@ -52,5 +52,14 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
 If a visitor is navigating on your website with an adblocker, the "adBlockDetected();" function sends a publisher impression.
 
 Benefits:
-- The hit sent is independent from the page hit
-- You could use a segment on this value
+- Automatic campaign (no need to declare this campaign).
+- The impression hit sent is independent from the page hit (no risk of losing some page data)
+- Possibility to apply a specific segment based on this campaign (to understand the different behaviour of these visitors).
+
+
+# More explaination
+
+See the .pdf file : AT-Internet-results.pdf
+
+
+
