@@ -27,10 +27,13 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
     var tag = new ATInternet.Tracker.Tag();
     
     function AtInternet_Adblock_Impression() {
-      tag.selfPromotion.send({
-        impression:{
-        adId : '1' }
-      });
+      AutoP.publisher.send({
+		impression:{
+			campaignId : '[adblock]',
+			creation : '[detection]',
+			url : '[/tests/detection-adblock.html]'
+		}
+	});
     }
 		
     //Function from the "fuckadblock.js" library
