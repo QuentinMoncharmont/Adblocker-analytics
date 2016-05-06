@@ -62,7 +62,9 @@ Benefits:
 
 # More explanation
 
-See the .pdf file : AT-Internet-results.pdf
+See the .pdf file : AT-Internet-results.pdf (https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/AT-Internet-results.pdf)
+
+Or example files : Example.zip (https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/example.zip)
 
 
 
