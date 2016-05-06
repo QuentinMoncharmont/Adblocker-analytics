@@ -57,7 +57,7 @@ Benefits:
 - Possibility to apply a specific segment based on this campaign (to understand the different behaviour of these visitors).
 
 
-# More explaination
+# More explanation
 
 See the .pdf file : AT-Internet-results.pdf
 
