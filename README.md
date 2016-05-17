@@ -48,7 +48,7 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
      		elem:element, // DOM element given
      		name:'adblock', 
      		chapter1:'adblock', 
-     		chapter2:"'" + value + "'", 
+     		chapter2:"'" + value + "'", //value = "detected" or "not_detected"
      		level2:'1', //Your level 2 click
       		type:'action', 
       	});
