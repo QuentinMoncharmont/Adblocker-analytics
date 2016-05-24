@@ -60,7 +60,7 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
 
      function AtInternet_Adblock_hit(value) {
      
-          hit.customVars.set({
+        hit.customVars.set({
                site: {
                     1: value,
                 }
