@@ -28,7 +28,9 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
     //At Internet tracker initialization
     var tag = new ATInternet.Tracker.Tag();
     
-### 2 - Method 1 : Publisher impression function
+### 2 - Select a method (publisher, click or custom variable)
+
+## 2 - Method 1 : Publisher impression function
 
     function AtInternet_Adblock_hit() {
       tag.publisher.send({
@@ -40,7 +42,7 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
 	});
     }
     
-### 2 - Method 2 : Click function
+## 2 - Method 2 : Click function
     
      function AtInternet_Adblock_hit(value) {
      
@@ -53,6 +55,10 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
       		type:'action', 
       	});
     }
+
+## 2 - Method 3 : Custom variable
+
+     Coming soon
 
 ### 3 - "fuckadblock.js" functions
 		
