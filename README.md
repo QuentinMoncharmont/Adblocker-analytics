@@ -67,12 +67,12 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
         });
 		
         //Page hit
-          hit.page.set({
-		chapter1:'plugin',
-		chapter2:'clic',
-		name: 'detection-adblock.html',
+        hit.page.set({
+                chapter1:'plugin',
+                chapter2:'clic',
+                name: 'detection-adblock.html',
 		level2:'3'
-	});
+        });
 		
 	//To send the page hit
 	hit.dispatch();
