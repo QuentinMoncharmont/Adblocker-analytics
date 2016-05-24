@@ -91,9 +91,9 @@ Benefits:
 
 ### More explanation
 
-See the .pdf file : AT-Internet-results.pdf (https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/AT-Internet-results.pdf)
+See the .pdf file : AT-Internet-publisher-results.pdf (https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/AT-Internet-publisher-results.pdf)
 
-Or example files : Example.zip (https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/example.zip)
+Technical files : https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/publisher-example.zip
 
 
 ### Method 2
@@ -105,4 +105,10 @@ Benefits:
 - The impression hit sent is independent from the page hit (no risk of losing some page data).
 - Possibility to apply a specific segment based on this campaign (to understand the different behaviour of these visitors).
 
+
+### More explanation
+
+See the .pdf file : AT-Internet-click-results.pdf (https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/AT-Internet-click-results.pdf)
+
+Technical files : https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/click-example.zip
 
