@@ -85,12 +85,12 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
     	//Method 2.1 - Publisher impression function
         AtInternet_Adblock_hit();
         
-        //or Method 2.2 - Click
+        //or Method 2.2 and 2.3 - Click or Custom variable
         AtInternet_Adblock_hit("detected");
     }
     
     function adBlockNotDetected() {
-	//Method 2.2 - Click
+	//Method 2.2 and 2.3 - Click or Custom variable
         AtInternet_Adblock_hit("not_detected");
     }
 		
