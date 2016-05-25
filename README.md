@@ -136,3 +136,17 @@ See the .pdf file : AT-Internet-click-results.pdf (https://github.com/QuentinMon
 
 Technical files : https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/click-example.zip
 
+
+### Method 3
+
+With a custom variable function it is possible to know if the visitor is navigating with or without an adblocker. In this case, the information is linked to the page hit. To use this method, you need to declare a custom variable directly in your Nx Interface  : "Tools > Configuration > Site custom variable (text or Id)". 
+You have different methods for this implementation. In this example, the page hit is sent through the function "function AtInternet_Adblock_hit(value)" because we need to wait a return from "fuckadblock.js" library to get the value "detected" or "not detected". It's possible to implement this method with a trigger.    
+
+Benefits:
+- Possibility to apply a specific segment based on this campaign (to understand the different behaviour of these visitors).
+
+
+### More explanation
+
+Coming soon
+
