@@ -148,5 +148,7 @@ Benefits:
 
 ### More explanation
 
-Coming soon
+See the .pdf file : AT-Internet-custom-var-results.pdf (https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/AT-Internet-custom-var-results.pdf)
+
+Technical files : https://github.com/QuentinMoncharmont/Adblocker-analytics/blob/master/custom-var-example.zip
 
