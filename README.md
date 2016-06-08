@@ -12,7 +12,7 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
 
 # Requierements
 
-- Download the "fuckadblock.js" library : https://github.com/sitexw/FuckAdBlock
+- Download the "fuckadblock.js" library : https://github.com/sitexw/BlockAdBlock
 - Download the "smarttag.js" library : https://apps.atinternet-solutions.com/TagComposer/#/javascript
 
 ## Code example
@@ -21,7 +21,7 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
 
     <head>
       <script src="./js/smarttag.js"></script>
-      <script src="./js/adblock/fuckadblock.js"></script>
+      <script src="./js/adblock/blockadblock.js"></script>
     </head>
     
     //Footer
