@@ -78,7 +78,7 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
         hit.dispatch();
      }
 
-### 3 - "fuckadblock.js" functions
+### 3 - "BlockAdBlock.js" functions
 		
     //Function from the "fuckadblock.js" library
     function adBlockDetected() {
@@ -94,10 +94,10 @@ How to measure an adblocker on your website with AT Internet Analytics Solution
         AtInternet_Adblock_hit("not_detected");
     }
 		
-    if(typeof fuckAdBlock === 'undefined') {
+    if(typeof blockAdBlock === 'undefined') {
         adBlockDetected();
     }else{
-        fuckAdBlock.onDetected(adBlockDetected).onNotDetected(adBlockNotDetected);
+        blockAdBlock.onDetected(adBlockDetected).onNotDetected(adBlockNotDetected);
     }
 
 
